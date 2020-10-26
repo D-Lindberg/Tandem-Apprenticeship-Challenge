@@ -1,3 +1,39 @@
+# Tandem Apprenticeship Challenge
+
+### `Goal`
+* Create an application that displays trivia questions with multiple-choice answers to select from.
+* At minimum, the player can view the question(s), the answer choices, the correct answer upon submission, and their score.
+
+### `Assumptions`
+* A round of trivia has 10 questions
+* All questions are multiple-choice questions
+* Your score does not need to update in real time
+* Results can update on form submit, button click, or any interaction you choose
+* We will provide you with the trivia data such as the questions, correct and incorrect answers via a JSON file.
+
+### `Acceptance Criteria`
+* A user can view questions.
+* Questions with their multiple choice options must be displayed one at a time.
+* Questions should not repeat in a round.
+* A user can select only 1 answer out of the 4 possible answers.
+* The correct answer must be revealed after a user has submitted their answer
+* A user can see the score they received at the end of the round
+
+### `Running the Code`
+
+In your terminal, run the following commands:
+* `NPM Install`
+* `NPM start`
+
+### `Known Issues or complexities to look out for:`
+* None Yet.
+
+### `Additional Features I would add if more time:`
+* Implement Django back-end for long-term storage of player game data.
+
+<br>
+Boiler Readme from React Below:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
