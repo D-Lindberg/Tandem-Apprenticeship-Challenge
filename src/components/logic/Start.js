@@ -2,18 +2,18 @@ import React, { useContext } from 'react';
 import Button from '../styled/Button'
 import {RoundContext} from '../context/ContextsRoundDetails'
 
-const Quit = () => {
+
+const Start = () => {
   const RoundDetails = useContext(RoundContext)
   const handleClick = (e) => {
     e.preventDefault()
-    RoundDetails.dispatch({type:"QUIT_GAME"})
+    RoundDetails.dispatch({type:"START_GAME"})
   }
-
   return (
-    <div data-testid="Quit" >
-    <Button label="Quit" handler={handleClick}/>
+    <div data-testid="Start" >
+    <Button label="Start" handler={handleClick} />
     </div >
   )
 }
 
-export default Quit
+export default Start

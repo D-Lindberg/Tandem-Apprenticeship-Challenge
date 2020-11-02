@@ -26,10 +26,13 @@ In your terminal, run the following commands:
 * `NPM start`
 
 ### `Known Issues or complexities to look out for:`
-* None Yet.
+* if clicking the start button while already on a trivia question, it will keep the current question as question #1
 
 ### `Additional Features I would add if more time:`
 * Implement Django back-end for long-term storage of player game data.
+* Implement open trivia db was working but I did not have time to research reducers and async functions
+* Reimplement pausing, resuming, and quitting the game. I had written the logic for it, but had to remove it as I didn't have time to test/debug it
+* Allow user to select a color theme
 
 <br>
 Boiler Readme from React Below:
